@@ -1,8 +1,7 @@
-import "./Hader.css";
 import React from "react";
-import { HeaderStyle,Container,Nav,Logo,Image } from "../../styles/containar.style"; 
-import { StyledButton } from "../../styles/button";
-import { StyleFlex } from "../../styles/Flex.style";
+import { HeaderStyle,Container,Nav,Logo,Image } from "../styles/containar.style"; 
+import { StyledButton } from "../styles/button";
+import { StyleFlex } from "../styles/Flex.style";
 
 export default function Header() {
   return (
