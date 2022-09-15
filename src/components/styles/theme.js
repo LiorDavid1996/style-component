@@ -3,5 +3,6 @@ export const theme ={
         Header:'#ebfbff',
         body:'#086453',
         footer:'#003333'
-    }
+    },
+    mobile:'768px'
 }
