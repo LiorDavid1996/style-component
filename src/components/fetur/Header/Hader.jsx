@@ -8,10 +8,6 @@ export default function Header() {
       <HeaderStyle >
           <h1>Header</h1>
       </HeaderStyle>
-       
-    
-    
-  
   );
 };
 
