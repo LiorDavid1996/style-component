@@ -5,6 +5,7 @@ import {ThemeProvider} from 'styled-components'
 import  GlobalStyle from './components/styles/Global.js'
 import content from './content'
 import Card from './components/fetur/Card'
+import Footer from './components/fetur/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Card key={index} item={item}/>
         ))} 
          </Container>
+         <Footer/>
     </>
     </ThemeProvider>
   );

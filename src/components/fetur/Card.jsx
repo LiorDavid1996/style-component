@@ -7,7 +7,7 @@ export default function Card({item:{id,title,body,image}}) {
         <p>{body}</p>
          </div>
          <div>
-          <img src={`./imges/${image}`} alt=""/>
+          <img src={`./images/${image}`} alt=""/>
          </div>
         </CardStyle>
         
